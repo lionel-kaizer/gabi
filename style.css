@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito & display=swap'); 
+body{
+    font-family: 'Open sans' , sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+}
+a {
+    color: black;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+nav .onglets{
+    display:flex;
+    flex-wrap:wrap ;
+    align-items: center;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+nav .onglets input{
+    margin: 8px 20px;
+    height: .7rem;
+    padding: 15px;
+    border-radius: 30px;
+    outline: none;
+    background-color:rgba(223, 213, 213, 0.541)
+}
+/* fin de la barre de navigation */
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+header button{
+    padding: 10px 20px ;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* fin du header*/
+
+/* section principale */
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* toutes les cartes */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cards .card img{
+    width: 350px;
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card .card-body p{
+    margin-top: -10px;
+}
+/* fin de cartes */
+/* fin section principale */
+
+/* pied de page */
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .social-media{
+     display: flex;
+}
+footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    
+}
+i{
+    width: 20px;
+}
+i.far.fa-heart{
+    width: 29px;
+    cursor: pointer;
+}
+i.fas.fa-shopping-cart{
+    cursor: pointer;
+}
+i.fab.fa-instagram{
+    cursor: pointer;
+}
+/* fin de pied de page */
+/* inscription conexion*/
+
+/* fin inscription conexion*/
